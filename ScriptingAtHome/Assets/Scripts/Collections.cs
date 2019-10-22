@@ -10,7 +10,7 @@ public class Collections : ScriptableObject
 
     public List<FloatData> FloatDatas;
 
-    public List<GameObjects> GameObjects;
+    public List<GameObject> GameObjects;
 
     public void FindObjectType(Object obj)
     {

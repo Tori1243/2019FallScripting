@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ActionCalls : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class ActionCalls : MonoBehaviour
     private void Awake()
     {
 
-        actions = new List<UnityAction> { OnMove, OnRotate, Onscale };
+        actions = new List<UnityAction> { OnMove, OnRotate };
 
     }
 
